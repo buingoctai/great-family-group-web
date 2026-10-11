@@ -57,7 +57,7 @@ export default function Home() {
               aria-expanded={mobileMenuOpen}
               aria-label="Menu"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <svg className="w-6 h-6 shrink-0" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 {mobileMenuOpen ? (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 ) : (
@@ -134,7 +134,7 @@ export default function Home() {
                 {/* Trust Points */}
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                   <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-6 h-6 shrink-0 text-primary mt-1" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <div>
@@ -143,7 +143,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-6 h-6 shrink-0 text-primary mt-1" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <div>
@@ -152,7 +152,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-6 h-6 shrink-0 text-primary mt-1" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <div>
@@ -165,7 +165,7 @@ export default function Home() {
 
               {/* Decorative Illustration */}
               <div className="hidden md:block">
-                <svg viewBox="0 0 400 400" className="w-full max-w-md mx-auto" aria-hidden="true">
+                <svg viewBox="0 0 400 400" className="w-full max-w-md mx-auto" width="400" height="400" aria-hidden="true">
                   <circle cx="200" cy="200" r="150" fill="#F4E6D6" opacity="0.5" />
                   <circle cx="200" cy="200" r="100" fill="#1F5F5B" opacity="0.2" />
                   <path d="M150 150 Q200 100 250 150 T350 150" stroke="#C2553A" strokeWidth="3" fill="none" />
@@ -189,8 +189,8 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               {/* Advisory Card */}
               <div className="bg-sand rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow">
-                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-6">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <div className="w-12 h-12 shrink-0 bg-primary rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 shrink-0 text-white" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
@@ -200,31 +200,31 @@ export default function Home() {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-5 h-5 shrink-0 text-primary mt-0.5" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-ink">Hòa giải mâu thuẫn trong gia đình</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-5 h-5 shrink-0 text-primary mt-0.5" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-ink">Hướng dẫn nuôi dạy con cái hiệu quả</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-5 h-5 shrink-0 text-primary mt-0.5" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-ink">Cải thiện giao tiếp vợ chồng</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-5 h-5 shrink-0 text-primary mt-0.5" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-ink">Tư vấn tài chính gia đình</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-5 h-5 shrink-0 text-primary mt-0.5" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-ink">Kết nối nhiều thế hệ</span>
@@ -234,8 +234,8 @@ export default function Home() {
 
               {/* Software Card */}
               <div className="bg-sand rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow">
-                <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mb-6">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <div className="w-12 h-12 shrink-0 bg-secondary rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 shrink-0 text-white" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
@@ -245,25 +245,25 @@ export default function Home() {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-5 h-5 shrink-0 text-secondary mt-0.5" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-ink">Lịch và nhắc việc gia đình</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-5 h-5 shrink-0 text-secondary mt-0.5" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-ink">Theo dõi mục tiêu chung</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-5 h-5 shrink-0 text-secondary mt-0.5" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-ink">Nhật ký cảm xúc</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <svg className="w-5 h-5 shrink-0 text-secondary mt-0.5" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-ink">Quản lý chi tiêu gia đình</span>
