@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #FFF8F0;
+  --white: #FFFFFF;
+  --primary: #C2553A;
+  --primary-hover: #A8442B;
+  --secondary: #1F5F5B;
+  --accent: #E9B44C;
+  --ink: #2B2320;
+  --muted: #6B5E57;
+  --sand: #F4E6D6;
+}
+
+@theme {
+  --color-cream: var(--cream);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-sand: var(--sand);
+
+  --font-sans: var(--font-be-vietnam-pro);
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--primary);
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
